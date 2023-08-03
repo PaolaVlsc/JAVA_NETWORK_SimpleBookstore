@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bookstore VLSC</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: rgb(228, 220, 207);
+                color: rgb(0, 0, 0);
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+        <h1 style="font-size:45px">
+            <br />
+            WELCOME TO BOOKSTORE "VLSC"
+        </h1>
+    </center>
+    <center>
+        <form name="available" action="ViewAvailableServlet">
+            <pre><b><p style="font-size:17px">See list of available books</p></b></pre>
+            <pre><input type="submit" name="submit" value="View available books" /></pre>
+        </form>
+        <form name="list" action="ViewAllServlet ">
+            <br />
+            <pre><b><p style="font-size:17px">Edit & Delete books</p></b></pre>
+            <pre><input type="submit" name="submit" value="View books" /></pre>
+        </form>
+        <form name="newbook" action="NewEntry.html">
+            <br />
+            <pre><b><p style="font-size:17px">Add a new book entry</p></b></pre>
+            <pre><input type="submit" name="submit" value="New Book" /></pre>
+        </form>
+        <form name="order" action="OrderServlet ">
+            <br />
+            <pre><b><p style="font-size:17px">Order a book</p></b></pre>
+            <pre><input type="submit" name="submit" value="Order" /></pre>
+        </form>
+        <form action="SearchServlet" method="post">
+            <br />
+            <pre><b><p style="font-size:17px">Search by book ID<br /><br /> <input type="text" name="id" /> <input type="submit" value="go" /></p></b></pre>
+        </form>
+    </center>
+
+    <div class="footer">
+        <b><p> cs161020 | Paola Velasco | 9th Semester | Student of UniWa | JAVA Network Programming</p></b>
+    </div>
+</body>
+</html>

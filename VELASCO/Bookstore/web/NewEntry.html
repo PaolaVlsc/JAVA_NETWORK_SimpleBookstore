@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <meta charset="UTF-8">  
+        <title>Bookstore VLSC - New book entry</title>  
+    </head>  
+    <body>  
+
+        <h1>Add New Book</h1>  
+        <form action="InsertServlet" method="post">  
+            <table>  
+                <tr><td>Title:</td><td><input type="text" name="title"/></td></tr>  
+                <tr><td>Author:</td><td><input type="text" name="author"/></td></tr>  
+                <tr><td>ISBN:</td><td><input type="text" name="isbn"/></td></tr>  
+                <tr><td>Publisher:</td><td><input type="text" name="publisher"/></td></tr>  
+                <tr><td>Edition:</td><td><input type="text" name="edition"/></td></tr>  
+                <tr><td>Category</td><td><input type="text" name="category"/></td></tr>  
+                <tr><td>Pages:</td><td><input type="text" name="pages"/></td></tr>  
+                <tr><td>Price</td><td><input type="text" name="price"/></td></tr>  
+                <tr><td>No. of copies</td><td><input type="text" name="noOfCopies"/></td></tr>  
+                <tr><td colspan="2"><input type="submit" value="Add Book"/></td></tr>  
+            </table>  
+        </form>  
+
+        <br/>  
+        <a href="index.html"> CANCEL </a>  
+        <br/>   <br/>  
+        <a href="ViewAvailableServlet">View Available Books List</a>  
+        <br/>   <br/>  
+        <a href="ViewAllServlet">View All Books List</a>  
+
+    </body>  
+</html>
