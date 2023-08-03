@@ -17,5 +17,10 @@ A final project for the subject "JAVA Network Programming" at University of West
 * IDE - NetBeans IDE 8.2
 
 ### Front End and Back End
-I. Front End: HTML
-II. Back End: MySQL ,  JAVA Servlet
+* I. Front End: HTML
+* II. Back End: MySQL ,  JAVA Servlet
+* 
+### Landing page
+<p align="center">
+![image](https://github.com/PaolaVlsc/JAVA_NETWORK_SimpleBookstore/assets/87998374/a1a19f00-f726-43e9-b86b-2489aa6bece8)
+</p>
