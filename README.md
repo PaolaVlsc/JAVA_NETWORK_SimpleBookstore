@@ -1,4 +1,6 @@
 # JAVA_NETWORK_SimpleBookstore
+JServlet, HTML, CSS, JAVASCRIPT. A uni project for the subject "JAVA Network Programmin" 2020-21. 
+This repository focuses on the functionality and connection with a database. Does not focus on the UI.
 
 ## Java Servlet in IDE NetBeans ## 
 A final project for the subject "JAVA Network Programming" at University of West Attica 2020-21. A simple web application of a bookstore that does not focus on the UI but on its functionality of an online store. This project has 6 main functions:
